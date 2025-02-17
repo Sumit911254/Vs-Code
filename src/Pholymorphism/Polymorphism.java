@@ -27,11 +27,11 @@ public void Company(String a){
 public static void main(String[] args) {
     
     Polymorphism po=new Polymorphism();
-    po.Company(1);
-    po.Company("co");
-    po.Company(21, "hello");
-    po.Company("hii", "sumit");
-    po.Company("raj", 3, "hii");
+    
+   // po.Company("co");
+    // po.Company(21, "hello");
+    // po.Company("hii", "sumit");
+    // po.Company("raj", 3, "hii");
 
 
 
