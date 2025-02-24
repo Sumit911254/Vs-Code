@@ -7,6 +7,7 @@ public static void main(String[] args) {
             max=arrys[i];
         }
     }
+    
     System.out.println(max);
 
 }
