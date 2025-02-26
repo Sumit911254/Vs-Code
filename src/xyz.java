@@ -3,12 +3,15 @@ import java.util.HashMap;
 public class xyz {
 public static void main(String[] args) {
 
-   String str="Automation";
-   for(int i=0;i<str.length();i++){
-    if(i%2==0){
-        System.out.print(str.charAt(i));
-    }
-   }
+int num=1234;
+String str=Integer.toString(num);
+String rev="";
+for(int i=str.length()-1;i>=0;i--){
+    char c=str.charAt(i);
+    rev=rev+c;
+}
+System.out.println(rev);
+
 
 }
 }
