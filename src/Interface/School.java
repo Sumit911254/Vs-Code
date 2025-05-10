@@ -4,15 +4,8 @@ package Interface;
 
     public static void main(String[] args) {
         
-       // Purvanchal p=new Purvanchal();
-       // p.fee();
-        RPM r=new RPM();
-        r.fee();
-        Radhika ra=new Radhika(); 
-        ra.fee();
-        //Xeviers x=new Xeviers();
-       // x.fee();
-
+    RPM rpm=new RPM();
+    rpm.fee();
 
     }
 }

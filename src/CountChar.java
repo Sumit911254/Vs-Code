@@ -2,7 +2,7 @@ import java.util.HashMap;
 
 public class CountChar {
     public static void main(String[] args) {
-        String str="fygyutyityutu";
+        String str="gdtyjyc6viuytukyyuybuyter";
         int len =str.length();
         HashMap<Character,Integer> hm=new HashMap<>();
         for(int i=0;i<len;i++){

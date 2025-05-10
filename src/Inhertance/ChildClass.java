@@ -19,14 +19,15 @@ public void Books(){
 
 ParentsClass p=new ParentsClass();
 p.House();
-p.Money();
-p.car();
-p.locker();
-System.out.println("-----------------------------------------");
-ChildClass c=new ChildClass();
-c.Bags();
-c.Bike();
-c.Laptop();
+// p.Money();
+// p.car();
+// p.locker();
+
+// System.out.println("-----------------------------------------");
+// ChildClass c=new ChildClass();
+// c.Bags();
+// c.Bike();
+// c.Laptop();
 
     
     }

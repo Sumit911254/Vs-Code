@@ -6,18 +6,11 @@ public abstract class Vechile {
 
     public static void main(String[] args) {
         
-        Bike b=new Bike();
-        b.start();
-        Car c=new Car();
-        c.start();
-        truck t=new truck();
-        t.start();
-        cycle cl=new cycle();
-        cl.start();
+    //   Car c =new Car();
+    //   c.start();
 
-
-
-
+      Bike b=new Bike();
+      b.start();
     }
 
 }

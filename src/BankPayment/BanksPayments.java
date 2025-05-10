@@ -27,19 +27,20 @@ public class BanksPayments {
     public static void main(String[] args) {
        
        
-        payment pay=new payment();
-        pay.pay(500.00);
+       payment pay=new payment();
+       pay.pay(100.00);
 
-         //payment pay1=new CreditCardPayment();
-         //pay1.pay(500.00);
+        //  payment pay1=new CreditCardPayment();
+        //  pay1.pay(500.00);
 
 
-       //payment pay2=new DebitCardPayment();
-       // pay2.pay(200.00);
+      payment pay2=new DebitCardPayment();
+      pay2.pay(100.00);
 
-         payment pay3=new UPIPayment();
-         pay3.pay(500.00);
+        // payment pay3=new UPIPayment();
+        // pay3.pay(500.00);
         
+      
     }
 
 }

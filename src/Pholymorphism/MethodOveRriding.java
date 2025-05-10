@@ -23,8 +23,11 @@ public class MethodOveRriding {
 
     public static void main(String[] args) {
         
-poly po=new over();
-po.add(2, 3);
+// poly po=new over();
+// po.add(2, 3);
+poly po=new over1();
+po.add(4, 2);
+
 
 
     }
